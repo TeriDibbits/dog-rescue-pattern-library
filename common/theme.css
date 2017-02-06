@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #833333;
+  --color-primary-light: #BC7D84;
+  --color-secondary: #99CCCC;
+  --color-neutral: #fff;
+  --color-base: #ffffff;
+
+  --font-primary: "Source Sans Pro", sans-serif;
+  --font-secondary: "EB Garamond", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
