@@ -1,9 +1,9 @@
 :root {
   --color-primary: #833333;
-  --color-primary-light: #bC7d84;
-  --color-secondary: #99cccc;
+  --color-primary-light: #bc7d84;
+  --color-secondary: #9cc;
   --color-neutral: #fff;
-  --color-base: #ffffff;
+  --color-base: #fff;
 
   --font-primary: "Source Sans Pro", sans-serif;
   --font-secondary: "EB Garamond", serif;
