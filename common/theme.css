@@ -27,7 +27,7 @@ mark {
 }
 
 ul, ol, dl {
-  font-weight: bold;
+  list-style-type: none;
 }
 
 blockquote {
@@ -36,4 +36,13 @@ blockquote {
 
 cite {
   font-weight: normal;
+}
+
+em, del, ins, abbr, dfn, mark, s, u {
+  font-family: var(--font-secondary);
+  font-style: normal;
+}
+
+strong, i, b {
+  font-family: var(--font-secondary);
 }
