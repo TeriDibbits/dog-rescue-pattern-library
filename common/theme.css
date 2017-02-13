@@ -2,8 +2,8 @@
   --color-primary: #833333;
   --color-primary-light: #bc7d84;
   --color-secondary: #9cc;
-  --color-neutral: #fff;
-  --color-base: #fff;
+  --color-neutral: #000;
+  --color-base: #000;
 
   --font-primary: "Source Sans Pro", sans-serif;
   --font-secondary: "EB Garamond", serif;
@@ -14,9 +14,26 @@ html {
 }
 
 a {
-  color: #833333;
+  color: #9cc;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #833333;
+}
+
+mark {
+  background: #833333;
+  color: #fff;
+}
+
+ul, ol, dl {
+  font-weight: bold;
+}
+
+blockquote {
+  font-weight: bold;
+}
+
+cite {
+  font-weight: normal;
 }
