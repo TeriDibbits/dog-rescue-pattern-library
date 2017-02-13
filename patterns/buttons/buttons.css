@@ -29,7 +29,7 @@
 }
 
 .btn-icon {
-  background-image: url(../../images/icon-1.svg);
+  background-image: url("../../images/icon-1.svg");
   background-size: contain;
   background-position: center center;
   color: transparent;
@@ -81,7 +81,7 @@
 }
 
 .btn-icon:hover {
-  background-image: url(../../images/icon-1-reverse.svg);
+  background-image: url("../../images/icon-1-reverse.svg");
   background-size: contain;
   background-position: center center;
   color: transparent;
