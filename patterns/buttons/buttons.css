@@ -26,7 +26,18 @@
 
 .btn-b-no-border {
   border: none;
-  padding: 10px;
+  padding: 10.5px;
+}
+
+.btn-no-border {
+  border: none;
+  padding: 10.5px;
+}
+
+.btn-small {
+  font-size: 12px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .btn:hover {
@@ -34,6 +45,12 @@
   border-color: var(--color-primary);
 
   color: var(--color-primary);
+}
+
+.btn-light:hover {
+  border-color: var(--color-primary-light);
+
+  color: var(--color-primary-light);
 }
 
 .btn-ghost:hover {
