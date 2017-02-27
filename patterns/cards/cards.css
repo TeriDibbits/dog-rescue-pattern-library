@@ -29,3 +29,25 @@ li {
 
   color: var(--color-primary-light);
 }
+
+.icon-card {
+  background-image: url("../../images/icon-1.svg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  border-radius: 8px;
+}
+
+.icon-card:hover {
+  background-image: url("../../images/icon-1-reverse.svg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+a {
+  color: #fff;
+}
