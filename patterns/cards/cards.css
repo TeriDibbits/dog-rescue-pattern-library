@@ -23,20 +23,15 @@ p {
 
 .btn {
   background-color: #fff;
-  border-color: #fff;
-  padding-left: 67px;
-  padding-right: 67px;
-
+  border: #fff;
   color: var(--color-primary);
-  transition: all 500ms linear;
 }
 
 .btn:hover {
   background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
-
-  color: var(--color-primary);
+  border: var(--color-secondary);
 }
+
 
 .icon-card {
   background-image: url("../../images/icon-1.svg");
@@ -59,12 +54,12 @@ p {
   background-color: #fff;
 }
 
-h2 {
+.h2-icon-card {
   color: #fff;
   text-align: center;
   padding-top: 12em;
 }
 
-a {
+.a-icon-card {
   color: transparent;
 }
