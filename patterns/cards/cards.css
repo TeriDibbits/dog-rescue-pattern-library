@@ -32,34 +32,6 @@ p {
   border: var(--color-secondary);
 }
 
-
 .icon-card {
-  background-image: url("../../images/icon-1.svg");
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  color: transparent;
   background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  border-radius: 10px;
-
-  transition: all 500ms linear;
-}
-
-.icon-card:hover {
-  background-image: url("../../images/icon-1-reverse.svg");
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: #fff;
-}
-
-.h2-icon-card {
-  color: #fff;
-  text-align: center;
-  padding-top: 12em;
-}
-
-.a-icon-card {
-  color: transparent;
 }
