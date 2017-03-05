@@ -7,6 +7,14 @@ img {
   background-size: cover;
 }
 
+p {
+  position: absolute;
+  bottom: 25%;
+  color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .btn {
   position: absolute;
   bottom: 10%;
