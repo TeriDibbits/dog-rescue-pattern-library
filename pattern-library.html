@@ -24,6 +24,7 @@
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#banner">Banner</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#form">Form</a></li>
           </ul>
         </nav>
       </div>
@@ -548,7 +549,7 @@
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
               <code><pre>&lt;ul class="list-group-inline grid grid-middle"&gt;
-  &lt;li class="icon-card center-text unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
+  &lt;li class="icon-card unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
     &lt;a class="block" href="#">
       &lt;i class="icon i-96">
           &lt;svg>&lt;use xlink:href="../../images/icons.svg#dog-1"/>&lt;/svg>
@@ -556,7 +557,7 @@
       &lt;span class="block icon-text">Adopt&lt;/span>
     &lt;/a>
   &lt;/li>
-  &lt;li class="icon-card center-text unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
+  &lt;li class="icon-card unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
     &lt;a class="block" href="#">
       &lt;i class="icon i-96">
           &lt;svg>&lt;use xlink:href="../../images/icons.svg#dog-2"/>&lt;/svg>
@@ -564,7 +565,7 @@
       &lt;span class="block icon-text">Foster&lt;/span>
     &lt;/a>
   &lt;/li>
-  &lt;li class="icon-card center-text unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
+  &lt;li class="icon-card unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
     &lt;a class="block" href="#">
       &lt;i class="icon i-96">
           &lt;svg>&lt;use xlink:href="../../images/icons.svg#dog-3"/>&lt;/svg>
@@ -573,6 +574,49 @@
     &lt;/a>
   &lt;/li>
 &lt;/ul>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="form">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Form</h2>
+    </div>
+
+  </div>
+
+  
+
+    <div class="pattern-details push" id="form-form">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/form/form.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+
+  &lt;div class="push-1-2">
+    &lt;label for="name">Name&lt;/label>
+    &lt;input id="name" required aria-describedby="name-error">
+    &lt;p class="error-message milli island-1-5 push-0" id="name-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;svg/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide a name&lt;span>
+      &lt;/span>&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="pad-t-1-2">
+    &lt;button class="btn" type="submit">Send&lt;/button>
+  &lt;/div>
+
+&lt;/form>
 </pre></code>
             </div>
           </div>

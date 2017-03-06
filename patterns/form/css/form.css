@@ -1,0 +1,14 @@
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+
+  color: #fff;
+  transition: background-color 500ms linear;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: var(--color-primary);
+
+  color: var(--color-primary);
+}
