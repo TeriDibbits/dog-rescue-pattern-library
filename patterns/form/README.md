@@ -1,4 +1,1 @@
----
-basic-box: |
-  The basic form box should be used for all regular form questions.
----
+The basic form box should be used for all regular form questions. Radio buttons should only be used when there is two or three options but one choice. The drop down menu should be used when there is many but on one option choice.

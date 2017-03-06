@@ -13,19 +13,48 @@
   color: var(--color-primary);
 }
 
+label {
+  font-weight: bold;
+}
+
+fieldset {
+  border: 0;
+}
+
 a {
   color: var(--color-primary);
   text-decoration: underline;
 }
 
-label {
-  color: var(--color-primary);
+h3 {
+  color: #fff;
 }
 
-p {
-  display: none;
+legend {
+  font-weight: normal;
 }
 
-span {
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated input[type="radio"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
   display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  background-color: #c33;
+  color: #fff;
+}
+
+.is-validated .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated select:invalid + .error-message,
+.is-validated textarea:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
 }

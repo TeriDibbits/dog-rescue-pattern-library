@@ -21,6 +21,8 @@
       </h3>
     </div>
 
+    <h1>Application</h1>
+
     <div class="push-1-2">
       <label for="name">Full Name</label>
       <input id="name" placeholder="Firstname Lastname" required aria-describedby="name-error">
@@ -32,7 +34,7 @@
 
     <div class="push-1-2">
       <label for="name">Dog's Name on Loyal Rescue Inc. Website</label>
-      <input id="dog name" required aria-describedby="name-error">
+      <input id="dogname" required aria-describedby="name-error">
       <p class="error-message milli island-1-5 push-0" id="dogname-error">
         <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
         <span class="icon-label">Please provide the name of the dog you wish to adopt or foster</span>
@@ -48,27 +50,50 @@
       </p>
     </div>
 
+    <fieldset class="push-0">
+      <legend class="bold">Purpose for filling out the form</legend>
+      <input type="radio" id="adopt" name="adopt" required aria-describedby="purpose-error">
+      <label class="normal" for="adopt">Adoption</label>
+      <input type="radio" id="foster" name="foster" required aria-describedby="purpose-error">
+      <label class="normal" for="foster">Foster</label>
+      <p class="error-message milli island-1-5 push-0" id="purpose-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please select your intent or the purpose for filling out this form from the drop down menu</span>
+      </p>
+    </fieldset>
+
     <div class="push-1-2">
-      <label for="purpose">Purpose</label>
-      <select id="purpose" name="_purpose">
-        <option>Adoption</option>
-        <option>Foster</option>
-      </select>
-      <span class="icon-label">Please select your intent or the purpose for filling out this form</span>
+      <label for="info">Info (optional)</label>
+      <textarea id="info" name="textarea"></textarea>
     </div>
 
-    <div class="push">
-      <label for="textarea">Text area</label>
-      <textarea id="text-area" name="textarea"></textarea>
-      <span class="icon-label">Please type
+    <div class="push-1-2">
+      <label for="province">Province</label>
+      <select id="province" name="_province" required aria-describedby="province-error">
+        <option value="">Choose your province</option>
+        <option>Alberta</option>
+        <option>British Columbia</option>
+        <option>Manitoba</option>
+        <option>New Brunswick</option>
+        <option>Newfoundland and Labrador</option>
+        <option>Nova Scotia</option>
+        <option>Ontario</option>
+        <option>Prince Edward Island</option>
+        <option>Quebec</option>
+        <option>Saskatchewan</option>
+      </select>
+      <p class="error-message milli island-1-5 push-0" id="province-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please select your province from the drop down menu</span>
+      </p>
     </div>
 
     <div class="push-1-2 pad-t-1-2">
       <input type="checkbox" id="agree" required aria-describedby="agree-error">
       <label for="agree">I agree to the <a>Terms and conditions</a></label>
       <p class="error-message milli island-1-5 push-0" id="agree-error">
-        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /><svg></i>
-        <span class="icon-label">Please agree the terms and conditions to continue<span>
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please agree the terms and conditions to continue</span>
       </p>
     </div>
 
