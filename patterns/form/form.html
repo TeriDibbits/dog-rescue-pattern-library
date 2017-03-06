@@ -14,21 +14,69 @@
 <body>
 
   <form class="max-length island" method="post" novalidate>
+    <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+      <h3 class="push-0">
+        <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error"  /></svg></i>
+        <span class="icon-label">There are items that require your attention</span>
+      </h3>
+    </div>
 
     <div class="push-1-2">
-      <label for="name">Name</label>
-      <input id="name" required aria-describedby="name-error">
+      <label for="name">Full Name</label>
+      <input id="name" placeholder="Firstname Lastname" required aria-describedby="name-error">
       <p class="error-message milli island-1-5 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide a name</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Dog's Name on Loyal Rescue Inc. Website</label>
+      <input id="dog name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-5 push-0" id="dogname-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide the name of the dog you wish to adopt or foster</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Email</label>
+      <input id="email" placeholder="me@gmail.com" required aria-describedby="email-error">
+      <p class="error-message milli island-1-5 push-0" id="email-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide an valid email</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="purpose">Purpose</label>
+      <select id="purpose" name="_purpose">
+        <option>Adoption</option>
+        <option>Foster</option>
+      </select>
+      <span class="icon-label">Please select your intent or the purpose for filling out this form</span>
+    </div>
+
+    <div class="push">
+      <label for="textarea">Text area</label>
+      <textarea id="text-area" name="textarea"></textarea>
+      <span class="icon-label">Please type
+    </div>
+
+    <div class="push-1-2 pad-t-1-2">
+      <input type="checkbox" id="agree" required aria-describedby="agree-error">
+      <label for="agree">I agree to the <a>Terms and conditions</a></label>
+      <p class="error-message milli island-1-5 push-0" id="agree-error">
         <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /><svg></i>
-        <span class="icon-label">Please provide a name<span>
+        <span class="icon-label">Please agree the terms and conditions to continue<span>
       </p>
     </div>
 
     <div class="pad-t-1-2">
       <button class="btn" type="submit">Send</button>
     </div>
-
   </form>
 
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>
 </html>

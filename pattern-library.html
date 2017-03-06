@@ -601,13 +601,61 @@
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
               <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
 
   &lt;div class="push-1-2">
-    &lt;label for="name">Name&lt;/label>
-    &lt;input id="name" required aria-describedby="name-error">
+    &lt;label for="name">Full Name&lt;/label>
+    &lt;input id="name" placeholder="Firstname Lastname" required aria-describedby="name-error">
     &lt;p class="error-message milli island-1-5 push-0" id="name-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide a name&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label for="name">Dog&apos;s Name on Loyal Rescue Inc. Website&lt;/label>
+    &lt;input id="dog name" required aria-describedby="name-error">
+    &lt;p class="error-message milli island-1-5 push-0" id="dogname-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide the name of the dog you wish to adopt or foster&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label for="name">Email&lt;/label>
+    &lt;input id="email" placeholder="me@gmail.com" required aria-describedby="email-error">
+    &lt;p class="error-message milli island-1-5 push-0" id="email-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide an valid email&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label for="purpose">Purpose&lt;/label>
+    &lt;select id="purpose" name="_purpose">
+      &lt;option>Adoption&lt;/option>
+      &lt;option>Foster&lt;/option>
+    &lt;/select>
+    &lt;span class="icon-label">Please select your intent or the purpose for filling out this form&lt;/span>
+  &lt;/div>
+
+  &lt;div class="push">
+    &lt;label for="textarea">Text area&lt;/label>
+    &lt;textarea id="text-area" name="textarea">&lt;/textarea>
+    &lt;span class="icon-label">Please type
+    &lt;/span>&lt;/div>
+
+  &lt;div class="push-1-2 pad-t-1-2">
+    &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
+    &lt;label for="agree">I agree to the &lt;a>Terms and conditions&lt;/a>&lt;/label>
+    &lt;p class="error-message milli island-1-5 push-0" id="agree-error">
       &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;svg/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a name&lt;span>
+      &lt;span class="icon-label">Please agree the terms and conditions to continue&lt;span>
       &lt;/span>&lt;/span>
     &lt;/p>
   &lt;/div>
@@ -615,7 +663,6 @@
   &lt;div class="pad-t-1-2">
     &lt;button class="btn" type="submit">Send&lt;/button>
   &lt;/div>
-
 &lt;/form>
 </pre></code>
             </div>

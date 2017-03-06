@@ -12,3 +12,20 @@
 
   color: var(--color-primary);
 }
+
+a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+label {
+  color: var(--color-primary);
+}
+
+p {
+  display: none;
+}
+
+span {
+  display: none;
+}
