@@ -81,7 +81,7 @@
 }
 
 .btn-icon:hover {
-  background-image: url("../../images/icon-1-reverse.svg");
+  background-image: url("../../images/icons.svg#dog-2");
   background-size: contain;
   background-position: center center;
   color: transparent;
