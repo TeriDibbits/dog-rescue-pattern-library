@@ -1,37 +1,46 @@
 .banner {
-  position: relative;
+  display: none;
 }
 
-img {
-  width: 100%;
-  background-size: cover;
-}
+@media only screen and (min-width: 38em) {
 
-p {
-  position: absolute;
-  bottom: 25%;
-  color: #fff;
-  left: 50%;
-  transform: translateX(-50%);
-}
+  .banner {
+    display: block;
+    position: relative;
+  }
 
-.btn {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-}
+  img {
+    width: 100%;
+    background-size: cover;
+  }
 
-.btn-blue {
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
-  transition: all 500ms linear;
-  color: #fff;
-}
+  p {
+    position: absolute;
+    bottom: 20%;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-.btn-blue:hover {
-  border-color: #fff;
-  background-color: #fff;
+  .btn {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-  color: var(--color-secondary);
+  .btn-blue {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    transition: all 500ms linear;
+    color: #fff;
+  }
+
+  .btn-blue:hover {
+    border-color: #fff;
+    background-color: #fff;
+
+    color: var(--color-secondary);
+  }
+
 }

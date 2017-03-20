@@ -1,4 +1,1 @@
----
-banner: |
-  The banner should only be used on the homepage and should have a call to action button.
----
+  The banner should only be used on the homepage and should have a call to action button. It will not be displayed on the extra small or small screens. It will be displayed on the medium media query and up.
