@@ -21,12 +21,12 @@ fieldset {
   border: 0;
 }
 
-a {
+.form-conditions {
   color: var(--color-primary);
   text-decoration: underline;
 }
 
-h3 {
+.form-h3 {
   color: #fff;
 }
 
