@@ -9,12 +9,12 @@
     position: relative;
   }
 
-  img {
+  .banner-img {
     width: 100%;
     background-size: cover;
   }
 
-  p {
+  .banner-text {
     position: absolute;
     bottom: 20%;
     color: #fff;
