@@ -28,14 +28,6 @@
   transition: background-color 500ms linear;
 }
 
-.btn-icon {
-  background-image: url("../../images/icon-1.svg");
-  background-size: contain;
-  background-position: center center;
-  color: transparent;
-  background-repeat: no-repeat;
-}
-
 .btn-b-no-border {
   border: none;
   padding: 10.5px;
