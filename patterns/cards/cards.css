@@ -38,6 +38,8 @@ p {
   color: #fff;
   text-align: center;
   width: 8em;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 a {
@@ -51,4 +53,9 @@ a {
   color: var(--color-primary);
   text-align: center;
   stroke: var(--color-primary);
+}
+
+.icon-cards {
+  vertical-align: middle;
+  margin: auto;
 }
