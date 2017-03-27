@@ -1,15 +1,15 @@
-figure {
+.sections-figure {
   color: var(--color-primary);
   text-align: center;
   margin: auto;
   max-width: 33em;
 }
 
-figcaption {
+.sections-figcaption {
   text-align: right;
 }
 
-blockquote {
+.sections-blockquote {
   line-height: 1.3;
 }
 
