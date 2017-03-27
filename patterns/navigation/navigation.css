@@ -1,17 +1,17 @@
-header {
+.masthead {
   background-color: var(--color-primary);
 }
 
-.nav li {
+.nav .nav-btn {
   display: inline-block;
   color: #fff;
 }
 
-li {
+.nav-btn {
   width: 100%;
 }
 
-a {
+.nav-link {
   text-decoration: none;
   color: #fff;
 }
@@ -41,7 +41,7 @@ a {
   text-align: left;
 }
 
-svg {
+.nav-svg {
   max-width: 200px;
   display: inline-block;
 }
@@ -65,7 +65,7 @@ nav {
     margin-bottom: 0;
   }
 
-  li {
+  .nav-btn {
     width: 6em;
   }
 
