@@ -54,10 +54,10 @@
 }
 
 .icon-card:hover .icon-card-text {
-  background-color: #fff;
+  background-color: var(--color-secondary);
   border-radius: 8px;
-  color: var(--color-primary);
+  color: #fff;
   text-align: center;
-  stroke: var(--color-primary);
+  stroke: #fff;
   transition: background-color 500ms linear;
 }
