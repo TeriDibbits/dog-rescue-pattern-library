@@ -17,6 +17,9 @@ colors:
     The secondary color represents importance. Use them for links or when you want an extra pop.
   neutral: |
     The neutral colors are bland. Their real purpose is for body copy, captions, tables, etc.
+brand:
+  logos:
+    backgroundColor: "#833333"
 ---
 
 Loyal Rescue is a foster-based rescue. Our goal is to find a home for every dog that passes our path. Fill out an application to adopt a dog today!
