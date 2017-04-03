@@ -16,7 +16,7 @@
 
   .banner-text {
     position: absolute;
-    top: 20%;
+    bottom: 30%;
     color: #fff;
     left: 50%;
     transform: translateX(-50%);
