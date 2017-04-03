@@ -51,6 +51,7 @@
 .icon-card-text {
   text-decoration: none;
   color: #fff;
+  padding-bottom: .75em;
 }
 
 .icon-card:hover .icon-card-text {
