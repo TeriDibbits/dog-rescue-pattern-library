@@ -39,9 +39,10 @@
   border-radius: 8px;
   color: #fff;
   text-align: center;
-  width: 8em;
+  width: 15em;
   margin-left: 4px;
   margin-right: 4px;
+  margin-bottom: 8px;
 }
 
 .basic-card-btn {
