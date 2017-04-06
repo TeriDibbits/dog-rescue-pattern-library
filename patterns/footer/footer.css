@@ -4,6 +4,7 @@
 
 .footer-copyright {
   color: #fff;
+  text-align: center;
 }
 
 .footer {
@@ -11,5 +12,10 @@
 }
 
 .footer-nav {
-  text-align: left;
+  text-align: center;
+}
+
+.footer-text {
+  color: #fff;
+  text-align: center;
 }
