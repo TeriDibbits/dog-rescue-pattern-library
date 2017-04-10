@@ -22,29 +22,6 @@
   max-width: 50em;
 }
 
-.btn {
-  background-color: #fff;
-  border: #fff;
-  color: var(--color-primary);
-}
-
-.btn:hover {
-  background-color: var(--color-secondary);
-  border: var(--color-secondary);
-  transition: background-color 500ms linear;
-}
-
-.icon-card {
-  background-color: var(--color-primary);
-  border-radius: 8px;
-  color: #fff;
-  text-align: center;
-  width: 15em;
-  margin-left: 4px;
-  margin-right: 4px;
-  margin-bottom: 8px;
-}
-
 .basic-card-btn {
   text-decoration: none;
   background-color: #fff;
@@ -52,17 +29,7 @@
   color: var(--color-primary);
 }
 
-.icon-card-text {
-  text-decoration: none;
-  color: #fff;
-  padding-bottom: .75em;
-}
-
-.icon-card:hover .icon-card-text {
+.basic-card-btn:hover {
   background-color: var(--color-secondary);
-  border-radius: 8px;
-  color: #fff;
-  text-align: center;
-  stroke: #fff;
   transition: background-color 500ms linear;
 }
