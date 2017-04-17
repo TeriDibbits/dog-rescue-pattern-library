@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Navigation</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
+  <link href="../../patterns/header/header.css" rel="stylesheet">
+  <link href="../../patterns/navigation/navigation.css" rel="stylesheet">
+  <link href="../../patterns/banner/banner.css" rel="stylesheet">
+  <link href="../../patterns/cards/cards.css" rel="stylesheet">
+  <link href="../../patterns/buttons/buttons.css" rel="stylesheet">
+  <link href="../../patterns/footer/footer.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="masthead grid grid-middle gutter-0">
+    <div class="unit text-center xs-1 s-1 m-1-4 l-1-4">
+      <a class="block" href="#">
+        <i class="icon logo-icon">
+          <svg class="nav-svg"><use xlink:href="../../images/icons.svg#nav" /></svg>
+        </i>
+      </a>
+    </div>
+    <nav class="text-center xs-1 s-1 m-2-3 l-3-4">
+      <ul class="nav push-0 list-group">
+        <li class="nav-btn"><a class="giga gutter island-1-8 page unit nav-link" href="home.html">Home</a></li>
+        <li class="nav-btn"><a class="giga gutter island-1-8 page unit nav-link" href="adopt.html">Adopt</a></li>
+        <li class="nav-btn"><a class="giga gutter island-1-8 page unit nav-link" href="foster.html">Foster</a></li>
+        <li class="nav-btn"><a class="giga gutter island-1-8 page unit nav-link" href="apply.html">Apply</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form class="max-length island" method="post" novalidate>
+      <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+        <h3 class="push-0 form-h3">
+          <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+          <span class="icon-label">There are items that require your attention</span>
+        </h3>
+      </div>
+
+      <h1>Application</h1>
+
+      <div class="push-1-2">
+        <label for="name">Full Name</label>
+        <input id="name" placeholder="Firstname Lastname" required aria-describedby="name-error">
+        <p class="error-message milli island-1-5 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a name</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="name">Dog's Name on Loyal Rescue Inc. Website</label>
+        <input id="dogname" required aria-describedby="name-error">
+        <p class="error-message milli island-1-5 push-0" id="dogname-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide the name of the dog you wish to adopt or foster</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="name">Email</label>
+        <input id="email" placeholder="me@gmail.com" required aria-describedby="email-error">
+        <p class="error-message milli island-1-5 push-0" id="email-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide an valid email</span>
+        </p>
+      </div>
+
+      <fieldset class="push-0">
+        <legend class="bold">Purpose for filling out the form</legend>
+        <input type="radio" id="adopt" name="adopt" required aria-describedby="purpose-error">
+        <label class="normal" for="adopt">Adoption</label>
+        <input type="radio" id="foster" name="foster" required aria-describedby="purpose-error">
+        <label class="normal" for="foster">Foster</label>
+        <p class="error-message milli island-1-5 push-0" id="purpose-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select your intent or the purpose for filling out this form from the drop down menu</span>
+        </p>
+      </fieldset>
+
+      <div class="push-1-2">
+        <label for="info">Info (optional)</label>
+        <textarea id="info" name="textarea"></textarea>
+      </div>
+
+      <div class="push-1-2">
+        <label for="province">Province</label>
+        <select id="province" name="_province" required aria-describedby="province-error">
+          <option value="">Choose your province</option>
+          <option>Alberta</option>
+          <option>British Columbia</option>
+          <option>Manitoba</option>
+          <option>New Brunswick</option>
+          <option>Newfoundland and Labrador</option>
+          <option>Nova Scotia</option>
+          <option>Ontario</option>
+          <option>Prince Edward Island</option>
+          <option>Quebec</option>
+          <option>Saskatchewan</option>
+        </select>
+        <p class="error-message milli island-1-5 push-0" id="province-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select your province from the drop down menu</span>
+        </p>
+      </div>
+
+      <div class="push-1-2 pad-t-1-2">
+        <input type="checkbox" id="agree" required aria-describedby="agree-error">
+        <label for="agree">I agree to the <a class="form-conditions">Terms and conditions</a></label>
+        <p class="error-message milli island-1-5 push-0" id="agree-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please agree the terms and conditions to continue</span>
+        </p>
+      </div>
+
+      <div class="pad-t-1-2">
+        <button class="btn" type="submit">Send</button>
+      </div>
+    </form>
+
+    <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+  </main>
+
+  <footer class="footer">
+    <div class="max-length island-1-2">
+      <small class="block push-1-4 footer-copyright pad-t-1-4">©LOYAL RESCUE | ALL RIGHTS RESERVED</small>
+      <p class="footer-text push-1-4 milli">171 Rink St, Peterborough, ON K9J 2J6 | (705) 772-4916</p>
+      <nav>
+        <ol class="footer-nav list-group-inline push-0 milli">
+          <li><a class="block pad-r-1-2 footer-link" href="#home">Home</a></li>
+          <li><a class="block gutter-1-2 footer-link" href="#adopt">Adopt</a></li>
+          <li><a class="block gutter-1-2 footer-link" href="#foster">Foster</a></li>
+          <li><a class="block pad-l-1-2 footer-link" href="#apply">Apply</a></li>
+        </ol>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
