@@ -150,7 +150,7 @@
         <label class="normal" for="female">Female</label>
         <input type="radio" id="other" name="other" required aria-describedby="purpose-error">
         <label class="normal" for="other">Other</label>
-        <p class="error-message milli island-1-5 push-0" id="purpose-error">
+        <p class="error-message milli island-1-5 push-0" id="gender-error">
           <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please select your gender</span>
         </p>
@@ -266,17 +266,17 @@
         <label class="normal" for="rent">Rent</label>
         <input type="radio" id="own" name="own" required aria-describedby="purpose-error">
         <label class="normal" for="own">Own</label>
-        <input type="radio" id="other" name="other" required aria-describedby="purpose-error">
-        <label class="normal" for="other">Other</label>
-        <p class="error-message milli island-1-5 push-0" id="purpose-error">
+        <input type="radio" id="other-ownership" name="other" required aria-describedby="purpose-error">
+        <label class="normal" for="other-ownership">Other</label>
+        <p class="error-message milli island-1-5 push-0" id="home-ownership-error">
           <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please select the form of home owner-ship applicable to your situation</span>
         </p>
       </fieldset>
 
       <div class="push-1-2">
-        <label for="info">If you selected 'other' in the question above please describe</label>
-        <textarea id="info" name="textarea"></textarea>
+        <label for="ownership-info">If you selected 'other' in the question above please describe</label>
+        <textarea id="ownership-info" name="textarea"></textarea>
       </div>
 
       <h2 class="push-0">Basic Inquiry Questions</h2>
@@ -306,7 +306,7 @@
       <div class="push-1-2">
         <label for="home">Where will your dog be kept during the night?</label>
         <textarea id="night" required aria-describedby="night-error" name="textarea"></textarea>
-        <p class="error-message milli island-1-5 push-0" id="hours-error">
+        <p class="error-message milli island-1-5 push-0" id="night-error">
           <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please answer to continue</span>
         </p>
@@ -314,10 +314,10 @@
 
       <fieldset class="push-0">
         <legend class="bold">Is your yard fully fenced and secure enough to contain any dog?</legend>
-        <input type="radio" id="yes" name="yes" required aria-describedby="purpose-error">
-        <label class="normal" for="yes">Yes</label>
-        <input type="radio" id="no" name="no" required aria-describedby="purpose-error">
-        <label class="normal" for="no">No</label>
+        <input type="radio" id="yes-fence" name="yes" required aria-describedby="fence-error">
+        <label class="normal" for="yes-fence">Yes</label>
+        <input type="radio" id="no-fence" name="no" required aria-describedby="fence-error">
+        <label class="normal" for="no-fence">No</label>
         <p class="error-message milli island-1-5 push-0" id="fence-error">
           <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please select yes or no</span>
@@ -325,8 +325,8 @@
       </fieldset>
 
       <div class="push-1-2">
-        <label for="info">If there is no fence and gate, please describe how you will keep your dog secure on your property</label>
-        <textarea id="info" name="textarea"></textarea>
+        <label for="fence-info">If there is no fence and gate, please describe how you will keep your dog secure on your property</label>
+        <textarea id="fence-info" name="textarea"></textarea>
       </div>
 
       <div class="push-1-2">
@@ -369,10 +369,10 @@
 
       <fieldset class="push-0">
         <legend class="bold">Have you ever owned a dog before?</legend>
-        <input type="radio" id="yes" name="yes" required aria-describedby="purpose-error">
-        <label class="normal" for="yes">Yes</label>
-        <input type="radio" id="no" name="no" required aria-describedby="purpose-error">
-        <label class="normal" for="no">No</label>
+        <input type="radio" id="yes-dog" name="yes" required aria-describedby="owned-dog-error">
+        <label class="normal" for="yes-dog">Yes</label>
+        <input type="radio" id="no-dog" name="no" required aria-describedby="owned-dog-error">
+        <label class="normal" for="no-dog">No</label>
         <p class="error-message milli island-1-5 push-0" id="owned-dog-error">
           <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please select yes or no</span>
@@ -381,10 +381,10 @@
 
       <fieldset class="push-0">
         <legend class="bold">Do you currently own any other pets?</legend>
-        <input type="radio" id="yes" name="yes" required aria-describedby="purpose-error">
-        <label class="normal" for="yes">Yes</label>
-        <input type="radio" id="no" name="no" required aria-describedby="purpose-error">
-        <label class="normal" for="no">No</label>
+        <input type="radio" id="yes-pets" name="yes" required aria-describedby="other-pets-error">
+        <label class="normal" for="yes-pets">Yes</label>
+        <input type="radio" id="no-pets" name="no" required aria-describedby="other-pets-error">
+        <label class="normal" for="no-pets">No</label>
         <p class="error-message milli island-1-5 push-0" id="other-pets-error">
           <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please select yes or no</span>
