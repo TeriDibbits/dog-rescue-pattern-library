@@ -35,6 +35,8 @@ legend {
 }
 
 .is-validated input:invalid,
+.is-validated select:invalid,
+.is-validated textarea:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before,
 .is-validated input[type="radio"]:invalid + label::before {
   border-color: #f33;
