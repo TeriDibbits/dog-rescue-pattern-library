@@ -104,29 +104,12 @@
       </div>
 
       <div class="push-1-2">
-        <label for="name">Province</label>
-        <input id="province" required aria-describedby="province-error">
-        <p class="error-message milli island-1-5 push-0" id="province-error">
+        <label for="name">City</label>
+        <input id="city" required aria-describedby="city-error">
+        <p class="error-message milli island-1-5 push-0" id="city-error">
           <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-          <span class="icon-label">Please provide your province</span>
+          <span class="icon-label">Please provide your City</span>
         </p>
-      </div>
-
-      <fieldset class="push-0">
-        <legend class="bold">Gender</legend>
-        <input type="radio" id="male" name="male" required aria-describedby="purpose-error">
-        <label class="normal" for="male">Male</label>
-        <input type="radio" id="female" name="female" required aria-describedby="purpose-error">
-        <label class="normal" for="female">Female</label>
-        <p class="error-message milli island-1-5 push-0" id="purpose-error">
-          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-          <span class="icon-label">Please select your gender</span>
-        </p>
-      </fieldset>
-
-      <div class="push-1-2">
-        <label for="info">Info (optional)</label>
-        <textarea id="info" name="textarea"></textarea>
       </div>
 
       <div class="push-1-2">
@@ -148,6 +131,274 @@
           <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please select your province from the drop down menu</span>
         </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="name">Postal/ Zip Code</label>
+        <input id="postal-code" required aria-describedby="postal-error">
+        <p class="error-message milli island-1-5 push-0" id="postal-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide your current Postal/ Zip code</span>
+        </p>
+      </div>
+
+      <fieldset class="push-0">
+        <legend class="bold">Gender</legend>
+        <input type="radio" id="male" name="male" required aria-describedby="purpose-error">
+        <label class="normal" for="male">Male</label>
+        <input type="radio" id="female" name="female" required aria-describedby="purpose-error">
+        <label class="normal" for="female">Female</label>
+        <input type="radio" id="other" name="other" required aria-describedby="purpose-error">
+        <label class="normal" for="other">Other</label>
+        <p class="error-message milli island-1-5 push-0" id="purpose-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select your gender</span>
+        </p>
+      </fieldset>
+
+      <div class="push-1-2">
+        <label for="children">Number of Children</label>
+        <select id="children" name="_children" required aria-describedby="children-error">
+          <option value="">Select the number of children you have</option>
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>More than 8</option>
+        </select>
+        <p class="error-message milli island-1-5 push-0" id="children-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select your the number of children you have</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="name">Children's ages</label>
+        <input id="children-ages" required aria-describedby="children-ages-error">
+        <p class="error-message milli island-1-5 push-0" id="children-ages-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide the the ages of your children.</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="people-residing">Number of people residing in home</label>
+        <select id="people-residing" name="_people-residing" required aria-describedby="people-residing-error">
+          <option value="">Select the number of people currently residing in your home</option>
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>More than 12</option>
+        </select>
+        <p class="error-message milli island-1-5 push-0" id="people-residing-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select the number of people currently residing in your home</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="name">Job Title</label>
+        <input id="job-title" required aria-describedby="job-title-error">
+        <p class="error-message milli island-1-5 push-0" id="job-title-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide your current Job Title</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="name">Employer</label>
+        <input id="employer" required aria-describedby="employer-error">
+        <p class="error-message milli island-1-5 push-0" id="employer-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide your current Employer</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="name">Employer's Phone Number</label>
+        <input id="employer-phone" required aria-describedby="employer-phone-error">
+        <p class="error-message milli island-1-5 push-0" id="employer-phone-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide your current Employer's Phone Number</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="home-style">Home Style</label>
+        <select id="home-style" name="_home-style" required aria-describedby="home-style-error">
+          <option value="">Select your home style</option>
+          <option>House</option>
+          <option>Semi-Detached</option>
+          <option>Townhouse</option>
+          <option>Apartment</option>
+          <option>Mobile Home</option>
+          <option>Other</option>
+        </select>
+        <p class="error-message milli island-1-5 push-0" id="home-style-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select the style of your home</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="info">If you selected 'other' in the question above please describe</label>
+        <textarea id="info" name="textarea"></textarea>
+      </div>
+
+      <fieldset class="push-0">
+        <legend class="bold">Home Ownership</legend>
+        <input type="radio" id="rent" name="rent" required aria-describedby="purpose-error">
+        <label class="normal" for="rent">Rent</label>
+        <input type="radio" id="own" name="own" required aria-describedby="purpose-error">
+        <label class="normal" for="own">Own</label>
+        <input type="radio" id="other" name="other" required aria-describedby="purpose-error">
+        <label class="normal" for="other">Other</label>
+        <p class="error-message milli island-1-5 push-0" id="purpose-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select the form of home owner-ship applicable to your situation</span>
+        </p>
+      </fieldset>
+
+      <div class="push-1-2">
+        <label for="info">If you selected 'other' in the question above please describe</label>
+        <textarea id="info" name="textarea"></textarea>
+      </div>
+
+      <h2 class="push-0">Basic Inquiry Questions</h2>
+      <p class="push-1-2">The more information and detail you offer, the easier it is for us to assess and understand your situation</p>
+
+      <fieldset class="push-0">
+        <legend class="bold">Is someone home during the day?</legend>
+        <input type="radio" id="yes" name="yes" required aria-describedby="purpose-error">
+        <label class="normal" for="yes">Yes</label>
+        <input type="radio" id="no" name="no" required aria-describedby="purpose-error">
+        <label class="normal" for="no">No</label>
+        <p class="error-message milli island-1-5 push-0" id="home-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select yes or no</span>
+        </p>
+      </fieldset>
+
+      <div class="push-1-2">
+        <label for="home">How many working hours will your dog be left alone in a day?</label>
+        <textarea id="hours" required aria-describedby="hours-error" name="textarea"></textarea>
+        <p class="error-message milli island-1-5 push-0" id="hours-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please answer to continue</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="home">Where will your dog be kept during the night?</label>
+        <textarea id="night" required aria-describedby="night-error" name="textarea"></textarea>
+        <p class="error-message milli island-1-5 push-0" id="hours-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please answer to continue</span>
+        </p>
+      </div>
+
+      <fieldset class="push-0">
+        <legend class="bold">Is your yard fully fenced and secure enough to contain any dog?</legend>
+        <input type="radio" id="yes" name="yes" required aria-describedby="purpose-error">
+        <label class="normal" for="yes">Yes</label>
+        <input type="radio" id="no" name="no" required aria-describedby="purpose-error">
+        <label class="normal" for="no">No</label>
+        <p class="error-message milli island-1-5 push-0" id="fence-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select yes or no</span>
+        </p>
+      </fieldset>
+
+      <div class="push-1-2">
+        <label for="info">If there is no fence and gate, please describe how you will keep your dog secure on your property</label>
+        <textarea id="info" name="textarea"></textarea>
+      </div>
+
+      <div class="push-1-2">
+        <label for="home">How often do you go away on holidays?</label>
+        <textarea id="holidays" required aria-describedby="holidays-error" name="textarea"></textarea>
+        <p class="error-message milli island-1-5 push-0" id="holidays-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please answer to continue</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="home">Will you take your dog to obedience class?</label>
+        <textarea id="training" required aria-describedby="training-error" name="textarea"></textarea>
+        <p class="error-message milli island-1-5 push-0" id="training-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please answer to continue</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="home">What activities do you plan to do with your dog?</label>
+        <textarea id="play" required aria-describedby="play-error" name="textarea"></textarea>
+        <p class="error-message milli island-1-5 push-0" id="play-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please answer to continue</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="home">Who will be the primary caregiver of the dog?</label>
+        <textarea id="caregiver" required aria-describedby="caregiver-error" name="textarea"></textarea>
+        <p class="error-message milli island-1-5 push-0" id="caregiver-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please answer to continue</span>
+        </p>
+      </div>
+
+      <h2 class="push-0">Pet Information</h2>
+
+      <fieldset class="push-0">
+        <legend class="bold">Have you ever owned a dog before?</legend>
+        <input type="radio" id="yes" name="yes" required aria-describedby="purpose-error">
+        <label class="normal" for="yes">Yes</label>
+        <input type="radio" id="no" name="no" required aria-describedby="purpose-error">
+        <label class="normal" for="no">No</label>
+        <p class="error-message milli island-1-5 push-0" id="owned-dog-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select yes or no</span>
+        </p>
+      </fieldset>
+
+      <fieldset class="push-0">
+        <legend class="bold">Do you currently own any other pets?</legend>
+        <input type="radio" id="yes" name="yes" required aria-describedby="purpose-error">
+        <label class="normal" for="yes">Yes</label>
+        <input type="radio" id="no" name="no" required aria-describedby="purpose-error">
+        <label class="normal" for="no">No</label>
+        <p class="error-message milli island-1-5 push-0" id="other-pets-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select yes or no</span>
+        </p>
+      </fieldset>
+
+      <div class="push-1-2">
+        <label for="home">If you answered 'Yes' above please list their information?</label>
+        <textarea id="other-pet-info" name="textarea"></textarea>
+      </div>
+
+      <div class="push-1-2">
+        <label for="info">Additional Info (optional)</label>
+        <textarea id="info" name="textarea"></textarea>
       </div>
 
       <div class="push-1-2 pad-t-1-2">
