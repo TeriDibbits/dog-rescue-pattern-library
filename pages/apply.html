@@ -64,6 +64,18 @@
         </p>
       </div>
 
+      <fieldset class="push-0">
+        <legend class="bold">Purpose for filling out the form</legend>
+        <input type="radio" id="adopt" name="adopt" required aria-describedby="purpose-error">
+        <label class="normal" for="adopt">Adoption</label>
+        <input type="radio" id="foster" name="foster" required aria-describedby="purpose-error">
+        <label class="normal" for="foster">Foster</label>
+        <p class="error-message milli island-1-5 push-0" id="purpose-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please select your reason for filling out this form</span>
+        </p>
+      </fieldset>
+
       <div class="push-1-2">
         <label for="name">Email</label>
         <input id="email" placeholder="me@gmail.com" required aria-describedby="email-error">
@@ -73,15 +85,42 @@
         </p>
       </div>
 
+      <div class="push-1-2">
+        <label for="name">Phone Number</label>
+        <input id="phone" placeholder="(613) 555-5555" required aria-describedby="phone-error">
+        <p class="error-message milli island-1-5 push-0" id="phone-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide your phone number</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="name">Address</label>
+        <input id="address" required aria-describedby="address-error">
+        <p class="error-message milli island-1-5 push-0" id="address-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide your current address</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="name">Province</label>
+        <input id="province" required aria-describedby="province-error">
+        <p class="error-message milli island-1-5 push-0" id="province-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide your province</span>
+        </p>
+      </div>
+
       <fieldset class="push-0">
-        <legend class="bold">Purpose for filling out the form</legend>
-        <input type="radio" id="adopt" name="adopt" required aria-describedby="purpose-error">
-        <label class="normal" for="adopt">Adoption</label>
-        <input type="radio" id="foster" name="foster" required aria-describedby="purpose-error">
-        <label class="normal" for="foster">Foster</label>
+        <legend class="bold">Gender</legend>
+        <input type="radio" id="male" name="male" required aria-describedby="purpose-error">
+        <label class="normal" for="male">Male</label>
+        <input type="radio" id="female" name="female" required aria-describedby="purpose-error">
+        <label class="normal" for="female">Female</label>
         <p class="error-message milli island-1-5 push-0" id="purpose-error">
           <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-          <span class="icon-label">Please select your reason for filling out this form from the drop down menu</span>
+          <span class="icon-label">Please select your gender</span>
         </p>
       </fieldset>
 
